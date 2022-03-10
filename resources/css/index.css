@@ -1,0 +1,151 @@
+/*General Stylings*/
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden; 
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+}
+
+h2,
+h4 {
+    margin: 15px 0;
+}
+
+/*Header and Nav*/
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    padding: 0 10px;
+    border-bottom: 1px solid seashell;
+   
+} 
+
+header img {
+    height: 50px;
+    margin: auto 10px;
+    float: left;
+}
+
+
+nav li{
+    display:inline-block;
+    text-decoration: underline;
+    padding: 0 4px;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul {
+    margin-right: 20px;
+    
+}
+
+/*Main Photo Section*/
+
+.main-photo {
+    min-height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 69px 30px 0px 30px;
+    background-image: url(../images/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.main-photo .heading {
+   background-color: black;
+   opacity: .9;
+   width: 100%;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   
+}
+
+/* Tea of the Month */
+
+
+.tea-of-month {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.photos {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    height: auto;
+    margin: 0 12px;
+}
+
+.photos img {
+    width: 300px;
+    height: 200px;
+}
+
+/*Locations*/
+
+.find-us {
+    min-height: 500px;
+    width: auto;
+    margin: 0 30px;
+    text-align: center;
+    background-image: url(../images/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-heading {
+    padding-top: 50px;
+}
+
+.locations {
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0 20px 15px 20px;
+}
+
+/* Contact and Footer Section */
+
+.contact-section {
+    min-height: 200px;
+}
+
+.contact-section .heading {
+    padding-bottom: 12px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px
+    
+}
